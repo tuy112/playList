@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Main.css';
+import './Reset.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        <div className="totalWrap">
+          <div className="bigBox">
+            <div className='bigBoxHeader'>
+              <h1>감성적인 남자 - Playlist</h1>
+              <div className="cancel"></div>
+            </div>
+            <div className="middleBox">
+              <ul className="content">
+                <li className='imgBox'>
+                  <img src="" alt=""></img>
+                </li>
+                <li>
+                  <ul className="txtBox">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </>
     </div>
   );
 }
